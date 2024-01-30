@@ -1,4 +1,4 @@
-*##*代码注入、命令执行
+ ##!代码注入、命令执行
 
 	1.内置危险函数
 	exec
@@ -11,7 +11,7 @@
 	commands
 	
 	3.危险第三方库
-	Template(user_input) : 模板注入(SSTI)所产生的代码执行
+	Template(user_input)#: 模板注入(SSTI)所产生的代码执行
 	subprocess32 
 	
 	4.反序列化
@@ -243,4 +243,4 @@ https://github.com/smartFlash/pySecurity
 
 [OWASP Python Security Project](https://github.com/ebranca/owasp-pysec)
 
-[Escaping a Python sandbox with a memory corruption bug](https://hackernoon.com/python-sandbox-escape-via-a-memory-corruption-bug-19dde4d5fea5) 
+[Escaping a Python sandbox with a memory corruption bug](https://hackernoon.com/python-sandbox-escape-via-a-memory-corruption-bug-19dde4d5fea5)  
